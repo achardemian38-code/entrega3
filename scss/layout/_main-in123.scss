@@ -1,0 +1,304 @@
+/*-------------------------------------------------------
+primer article del main, encierra el primer y segundo div
+--------------------------------------------------------*/
+.index1-main1-article01{
+    flex-direction: row;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0 0 20px $colorgold;
+    border-radius: 10px;
+}
+/*-------------------------------------------------------------
+primer y segundo div del main (estan dentro del primer article)
+-------------------------------------------------------------*/
+.index1-main-div02, .index1-main1-div01{
+    padding: 1rem;
+    box-shadow: 0 0 20px $colorgold;
+    border-radius: 10px;
+}
+/*------------------------------------------------------------
+precio del producto, esta en el segundo div del primer article
+------------------------------------------------------------*/
+.index1-main1-pre{
+    color: $colorgold;
+    font-weight: 600;
+    font-size: 20px;
+}
+/*------------------
+btns del segundo div
+------------------*/
+.index1-main1-btn1, .index1-main1-btn2{
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+/*----------------------------
+primer btn (añadir al carrito)
+----------------------------*/
+.index1-main1-btn1{
+    margin-bottom: 1rem;
+}
+/*----------------------------------------
+img que esta en el div 1 del prier article
+----------------------------------------*/
+.index1-main1-img{
+    width: 100%;
+    object-fit: contain;
+    margin: 10px 0;
+}
+/*-----------------------------------------------------
+nombre del producto del perfume que aparece en el div 2
+-----------------------------------------------------*/
+.index1-main1-h2{
+    color: $colorwhite;
+}
+/*--------------------------------
+titulo de la descripcion del div 2 
+--------------------------------*/
+.index1-main1-h5{
+    color: $colorwhite;
+}
+/*---------------
+parrafo del div 2
+---------------*/
+.index1-main1-p1{
+    color: rgba(155, 150, 150, 0.726);
+}
+/*----------
+ul del div 2
+----------*/
+.index1-main1-ul1{
+    color: rgba(155, 150, 150, 0.726);
+}
+
+/*------------
+ Mostrar modal 
+------------*/
+.modal:target {
+    display: flex;
+}
+/*--
+Caja
+--*/
+.modal-contenido {
+    background: black;
+    border: 2px solid gold;
+    box-shadow: 0 0 20px gold;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+/*------------
+img de la caja
+------------*/
+.index1-main1-modal-img{
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    margin: 10px 0;
+}
+/*------------
+btn de la caja
+------------*/
+.index1-minicard-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/*--------------------
+btn aceptar de la caja
+--------------------*/
+.confirmar {
+    background: $colorgold;
+    color: black;
+}
+/*---------------------
+btn cancelar de la caja
+---------------------*/
+.cancelar {
+    background: #444;
+    color: white;
+}
+/*---------
+cerrar caja
+---------*/
+.cerrar {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: gold;
+    font-size: 24px;
+    text-decoration: none;
+}
+/* --------
+modal fonde 
+---------*/
+.modal{
+    position: fixed;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+/*-----------
+mostrar modal
+-----------*/
+.modal:target{
+    display: flex;
+}
+/*-------------------------
+FONDO OSCURO (CLICK CIERRA)
+-------------------------*/
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+/*----------------------------------------
+la caja que aparece cuando aprieto comprar
+----------------------------------------*/
+.modal-card{
+    position: relative;
+    background: black;
+    color: white;
+    border: 2px solid $colorgold;
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+    z-index: 1;
+}
+/*----
+imagen 
+----*/
+.modal-img{
+    width: 120px;
+    margin: 15px 0;
+}
+/*------------------------------------------
+btns de la caja/card, ubicacion y separacion
+------------------------------------------*/
+.modal-botones{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+/*------------------
+btns de la caja/card
+------------------*/
+.btn{
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*----------
+btn cancelar
+----------*/
+.cancelar{
+    background: gray;
+    color: white;
+}
+/*---------
+btn aceptar
+---------*/
+.aceptar{
+    background: gold;
+    color: black;
+}
+/*--------------------------------------------
+pertenece al div de la descripcion del perfume
+--------------------------------------------*/
+.index1-main1-div03{
+    margin: 1rem;
+    box-shadow: 0 0 3px $colorwhite;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+/*--------------------------------------------
+titulo de la palabra "descripcion" del perfume
+--------------------------------------------*/
+.index1-main1-h2-0{
+    color: $colorwhite;
+}
+/*-----------------------
+parrafo de la descripcion
+-----------------------*/
+.index1-main1-p2{
+    color: rgba(255, 255, 255, 0.733);
+}
+/*-------------------------------------
+2do article para ver los otros perfumes
+-------------------------------------*/
+.index1-main1-article02{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*----------------------------------------
+el div que esta dentro del segundo article
+----------------------------------------*/
+.index1-main1-div04{
+    width: auto;
+    background-color: $colorBlack;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px $colorgold;
+    border-radius: 10px;
+}
+/*----------------
+titulo del perfume
+----------------*/
+.index1-main1-h2-01{
+    font-size: 25px;
+    color: $colorwhite;
+}
+/*---------------------------------------------
+img de los perfumes del div del segundo article
+---------------------------------------------*/
+.index1-main1-img1{
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+    margin: auto;
+}
+
+/*--------
+adaptacion
+--------*/
+@media (max-width: 768px){
+  .index1-main1-article01{
+    flex-direction: column;   
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .index1-main1-div01,
+  .index1-main1-div02{
+    width: 100%;
+  }
+
+  .index1-main1-div01 img{
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .btn-comprar,
+  .btn{
+    width: 100%;
+  }
+}

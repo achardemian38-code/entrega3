@@ -1,0 +1,45 @@
+/*----------------------
+article de los productos
+----------------------*/
+.index-main-article{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 5% ;
+}
+/*---------------------------------------------
+div dentro del article, contienen los productos
+---------------------------------------------*/
+.index-main-div1{
+    width: auto;
+    background-color: $colorBlack;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px $colorgold;
+    border-radius: 10px;
+}
+/*------------------------
+el titulo de los productos
+------------------------*/
+.index-main-h2{
+    font-size: 25px;
+    color: $colorwhite;
+}
+/*----------------------------------
+img que muestra el producto del div1
+----------------------------------*/
+.index-main-img{
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+    margin: auto;
+}
+/*-----------------
+precio del producto
+-----------------*/
+.index-main-p{
+    color: $colorPrecio;
+    font-weight: 700;
+    font-size: 17px;
+}
