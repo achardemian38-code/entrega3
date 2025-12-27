@@ -18,7 +18,7 @@ titulo de la pagina
   color: rgb(255, 255, 255);
   text-align: center;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 
 .index-header-span {
@@ -32,14 +32,15 @@ article de los productos
   display: flex;
   flex-wrap: wrap;
   gap: 5rem;
-  padding: 5%;
+  justify-content: center;
+  margin: 5%;
 }
 
 /*---------------------------------------------
 div dentro del article, contienen los productos
 ---------------------------------------------*/
 .index-main-div1 {
-  width: auto;
+  max-width: 300px;
   background-color: rgb(0, 0, 0);
   border: none;
   padding: 20px;
@@ -86,6 +87,7 @@ primer article del main, encierra el primer y segundo div
   gap: 1rem;
   box-shadow: 0 0 20px rgb(255, 217, 0);
   border-radius: 10px;
+  justify-content: center;
 }
 
 /*-------------------------------------------------------------
@@ -349,7 +351,7 @@ parrafo de la descripcion
   display: flex;
   flex-wrap: wrap;
   gap: 5%;
-  padding-left: 5%;
+  padding: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -358,13 +360,14 @@ parrafo de la descripcion
 el div que esta dentro del segundo article
 ----------------------------------------*/
 .index1-main1-div04 {
-  width: auto;
+  max-width: 300px;
   background-color: rgb(0, 0, 0);
   border: none;
   padding: 20px;
   text-align: center;
   box-shadow: 0 0 20px rgb(255, 217, 0);
   border-radius: 10px;
+  margin-top: 5%;
 }
 
 /*----------------

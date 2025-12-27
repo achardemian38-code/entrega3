@@ -5,13 +5,14 @@ article de los productos
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
-    padding: 5% ;
+    justify-content: center;
+    margin: 5%;
 }
 /*---------------------------------------------
 div dentro del article, contienen los productos
 ---------------------------------------------*/
 .index-main-div1{
-    width: auto;
+    max-width: 300px;
     background-color: $colorBlack;
     border: none;
     padding: 20px;

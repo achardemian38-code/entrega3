@@ -9,6 +9,7 @@ primer article del main, encierra el primer y segundo div
     gap: 1rem;
     box-shadow: 0 0 20px $colorgold;
     border-radius: 10px;
+    justify-content: center;
 }
 /*-------------------------------------------------------------
 primer y segundo div del main (estan dentro del primer article)
@@ -244,7 +245,7 @@ parrafo de la descripcion
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
-    padding-left: 5%;
+    padding: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -252,13 +253,14 @@ parrafo de la descripcion
 el div que esta dentro del segundo article
 ----------------------------------------*/
 .index1-main1-div04{
-    width: auto;
+    max-width: 300px;
     background-color: $colorBlack;
     border: none;
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 20px $colorgold;
     border-radius: 10px;
+    margin-top: 5%;
 }
 /*----------------
 titulo del perfume
@@ -281,24 +283,24 @@ img de los perfumes del div del segundo article
 adaptacion
 --------*/
 @media (max-width: 768px){
-  .index1-main1-article01{
+  .index1-main1-article01{ 
     flex-direction: column;   
     align-items: center;
     padding: 1rem;
-  }
+}
 
-  .index1-main1-div01,
-  .index1-main1-div02{
+.index1-main1-div01,
+.index1-main1-div02{
     width: 100%;
-  }
+}
 
-  .index1-main1-div01 img{
+.index1-main1-div01 img{
     width: 100%;
     max-width: 250px;
-  }
+}
 
-  .btn-comprar,
-  .btn{
+.btn-comprar,
+.btn{
     width: 100%;
-  }
+}
 }
